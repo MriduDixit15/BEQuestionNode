@@ -1,0 +1,33 @@
+{
+  "name": "bequestionnode",
+  "version": "1.0.0",
+  "description": "BEQuestionNode/\r │\r ├── src/\r │   ├── controllers/\r │   │   └── question.controller.js\r │   ├── models/\r │   │   └── question.model.js\r │   ├── routes/\r │   │   └── question.routes.js\r │   ├── middlewares/\r │   ├── services/\r │   └── app.js\r │\r ├── config/\r │   └── db.js\r │\r ├── README.md\r ├── package.json\r └── .env",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MriduDixit15/BEQuestionNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MriduDixit15/BEQuestionNode/issues"
+  },
+  "homepage": "https://github.com/MriduDixit15/BEQuestionNode#readme",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
