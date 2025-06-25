@@ -112,13 +112,6 @@ A backend API for managing survey questions with multi-language support. Each qu
 6. The API will be running on `http://localhost:5000`.
 
 ---
- 
-## Acknowledgments
-
-- Inspired by various survey and quiz applications.
-- Thanks to the contributors and open-source libraries that made this project possible.
-
----
 
 ## Contact
 
